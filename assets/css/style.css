@@ -1,0 +1,725 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    max-width: 1440px;
+}
+
+body {
+    background-color: #050C25;
+   
+}
+/* HEADER */
+header {
+    margin: 50px 80px 50px 80px;
+    
+}
+
+.logo {
+    display: inline-block;
+    
+}
+
+nav {
+    display: inline-block;
+    color: #E7E8E8;
+    padding: 0px 0px 0px 400px;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+/* Nav Ul Li  */
+.one {
+    color: #FDE68A;
+}
+.two {
+    color: #FDE68A;
+}
+.three {
+    color: #FDE68A;
+}
+.four {
+    color: #FDE68A;
+}
+
+.hireME {
+    color: #050C25;
+    display: inline-block;
+    
+}
+
+.hireME h1 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    border-style: dashed;
+    border-radius: 11px;
+    border-color: #FDE68A;
+    padding: 12px 54px 12px 54px;
+    background-color: #FDE68A;
+}
+/* HIRE ME BUTTON */
+.hBTN {
+    background-color: transparent;
+    cursor: pointer;
+    border-color: transparent;
+    padding: 0px 0px 0px 35px;
+}
+
+/* ---------------- */
+/* TOP */
+.TOP {
+    margin: 50px 80px 50px 80px;
+    /* USED BORDER TO CHECK */
+    border-color: white;
+    border-style: dashed;
+    
+    
+}
+
+.TOP h2 {
+    color: #D0D0D1;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.TOP h1 {
+    color: #E7E8E8;
+    font-size: 93px;
+    font-family: 'Raleway', sans-serif;
+}
+/* span class for TOP1 */
+.TOP1 {
+    color: #FDE68A;
+}
+/* UOT  */
+.UoT {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.TOP a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: #D0D0D1;
+    cursor: pointer;
+}
+
+/* ---------------- */
+/* VIEW RESUME */
+.viewResume {
+    display: inline-block;
+    border-color: #FDE68A;
+    border-style:solid;
+    border-radius: 11px;
+    color: #FDE68A;
+    margin: 50px 80px 50px 80px;
+    padding: 19.5px 37px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+/* VIEW MY RESUME BTN */
+.vBTN {
+    background-color: #050C25;
+    border-color: transparent;
+    color: #fde68a;
+    cursor: pointer;
+}
+
+/* ---------------- */
+/* ABOUT SECTION */
+.ABOUT {
+    display: flex;
+    margin: 50px 80px 70px 80px;
+    border-color: white;
+    border-style: dashed;
+}
+
+.aboutme {
+    flex: 1;
+    /* TESTED THE BOXES */
+    border-color: white;
+    border-style: dashed;
+    
+    color: #E7E8E8;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.aboutme:first-child {
+    margin: 10px;
+}
+
+.aboutme p {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #A1A2A4;
+}
+
+.aboutme h1 {
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.aboutme h2 {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #E7E8E8;
+}
+
+.exampleBox {
+    display: flex;
+}
+
+.exBox {
+    flex: 1;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #A1A2A4;
+}
+
+/* IMG BOX */
+.aboutme img {
+   position: absolute;
+   transform: translate(10%);
+   display:inherit;
+}
+
+.imgBox {
+    border-style: solid;
+    border-color: #FDE68A;
+    width: 468.57px;
+    height: 433.74px;
+    position:inherit;
+    transform: translate(15%, 5%);
+}
+
+/* ---------------- */
+/* WORK */
+.WORK {
+    margin: 70px 80px 50px 80px;
+    border-color: white;
+    border-style: dashed;
+}
+
+.WORK h1 {
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #E7E8E8;
+}
+
+.WERP {
+    display: flex;
+}
+
+aside {
+     /* USED BORDER TO CHECK */
+    border-color: white;
+    border-style: dashed;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+aside li {
+    display: block;
+    color: #A1A2A4;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+    margin: 0px 80px 24px 0px;
+}
+
+/* UOT SPAN CLASS */
+.uotExp {
+    color: #e7e7e7;
+}
+
+.werpDesc {
+    color: #E7E8E8;
+     /* USED BORDER TO CHECK */
+     border-color: white;
+     border-style: dashed;
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #E7E8E8;
+}
+
+.werpDesc a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.werpDesc p {
+    margin-top: 4px;
+    color: #A1A2A4;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.werpDesc h2 {
+    color: #A1A2A4;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.werpDesc h2 li {
+    list-style-type: none;
+    margin: 12px 0px;
+}
+
+/* ---------------- */
+/* PROJECTS PART */
+.Projects {
+    /* USED BORDER TO CHECK */
+    border-color: white;
+    border-style: dashed;
+    margin: 50px 80px 50px 80px;
+}
+
+.Projects h1 {
+    color: #E7E8E8;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+/* FIRST PART OF PROJECTS */
+.FEP {
+    display: flex;
+    /*
+    border-color: white;
+    border-style: dashed;
+    */
+    color: #E7E8E8;
+}
+
+.imgANDdesc {
+    flex: 1;
+    /* TESTED THE BOXES 
+    border-color: white;
+    border-style: dashed;
+    */
+}
+
+.project1 {
+    border-radius: 8px;
+    border-color: #0B1E59;
+    width: 716px;
+    height: 495.33px;
+    background-color: #0B1E59;
+    display: flex;
+}
+
+.project1 img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project1Desc {
+    margin-left: 28px;
+}
+
+.project1Desc p {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.project1Desc h1 {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #E7E8E8;
+}
+
+.project1Box {
+    border-radius: 8px;
+    background-color: #0B1E59;
+    border-color: #0B1E59;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.projCode {
+    display: flex;
+    margin: 8px 0px;
+}
+
+.pCode {
+    border-color: #0B1E59;
+    background-color: #0B1E59;
+    border-radius: 46px;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding: 4px 16px 4px 16px;
+    color: #E7E8E8;
+    margin: 0px 4px;
+}
+
+.projCode p {
+    margin: 24px 4px;
+}
+
+.projCode a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* SECOND PART OF PROJECTS */
+.FEP1 {
+    margin-top: 72.33px;
+    display: flex;
+    /*
+    border-color: white;
+    border-style: dashed;
+    */
+    color: #E7E8E8;
+}
+
+.imgANDdesc-1 {
+    flex: 1;
+    /* TESTED THE BOXES 
+    border-color: white;
+    border-style: dashed;
+    */
+}
+
+.project2Desc {
+    margin-left: 28px;
+}
+
+.project2Desc p {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project2Desc h1 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #E7E8E8;
+}
+
+.project2Box {
+    border-radius: 8px;
+    background-color: #0B1E59;
+    border-color: #0B1E59;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    padding: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.projCode-1 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 8px 0px;
+}
+
+.projCode-1 p {
+    margin: 24px 4px;
+}
+
+.projCode-1 a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pCode-1 {
+    display: flex;
+    justify-content: flex-end;
+    border-color: #0B1E59;
+    background-color: #0B1E59;
+    border-radius: 46px;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding: 4px 16px 4px 16px;
+    color: #E7E8E8;
+    margin: 0px 4px;
+}
+
+.imgANDdesc-1 {
+    flex: 1;
+}
+
+.project2 {
+    border-radius: 8px;
+    border-color: #0B1E59;
+    width: 716px;
+    height: 495.33px;
+    background-color: #0B1E59;
+    display: flex;
+    margin-left: 28px;
+}
+
+.project2 img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* ---------------- */
+/* MORE PROJECTS  */
+.Projects-1 {
+    margin: 50px 80px 50px 80px;
+    /* USED BORDER TO CHECK */
+    border-color: white;
+    border-style: dashed;
+}
+
+.Projects-1 h1 {
+    color: #E7E8E8;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+
+}
+
+.moreProj {
+    color: white;
+    /* USED BORDER TO CHECK 
+    border-color: white;
+    border-style: dashed;
+    */
+    display: flex;
+}
+
+.nfProj {
+    flex: 1;
+    background-color: #0B1E59;
+    border-radius: 8px;
+    border-color: white;
+    border-style: dashed;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #E7E8E8;
+    width: 529px;
+    height: 141px;
+    margin: 0px 14px 0px 0px;
+    padding: 24px 96px 24px 96px;
+}
+
+.nfProjMID {
+    background-color: #0B1E59;
+    
+    /*
+    border-color: white;
+    border-style: dashed;
+
+    */
+    display: flex;
+}
+
+.nfProjMIDdesc {
+    margin-left: 10px;
+}
+
+.nfProjMIDdesc h1 {
+    
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #E7E8E8;
+    
+}
+
+.nfProjMIDdesc p {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #D0D0D1;
+}
+
+.nfProjcode {
+    display: flex;
+    margin: 8px 0px;
+}
+
+.nfProjcode-1 {
+    border-color: #0B1E59;
+    background-color: #0B1E59;
+    border-radius: 46px;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+
+    color: #E7E8E8;
+    margin: 0px 12px 0px 0px;
+}
+
+.nfProj-1 {
+    flex: 1;
+    background-color: #0B1E59;
+    border-radius: 8px;
+    border-color: white;
+    border-style: dashed;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #E7E8E8;
+    width: 529px;
+    height: 141px;
+    margin: 0px 0px 28px 14px;
+    padding: 24px 96px 24px 96px;
+}
+
+/* ---------------- */
+/* CONTACT AREA */
+.CONTACT {
+    margin: 50px 80px 50px 80px;
+    /* USED BORDER TO CHECK */
+    border-color: white;
+    border-style: dashed;
+    
+}
+
+.contactTop {
+    display: flex;
+    justify-content: center;
+    color: #E7E8E8;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.contactGet {
+    font-size: 64px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contactDesc h2 {
+    color: #A1A2A4;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.contactDesc-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactDesc-1 h2 {
+    transform: (180deg);
+    text-align: center;
+    font-size: 24px;
+}
+
+.contactBtn {
+    display: flex;
+    justify-content: center;
+    border-color: #FDE68A;
+    border-style:solid;
+    border-radius: 11px;
+    color: #FDE68A;
+    margin: 48px 373px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.cBTN {
+    background-color: #050C25;
+    border-color: transparent;
+    color: #fde68a;
+    cursor: pointer;
+    padding: 12px 24px 12px 24px;
+}
+
+footer {
+    margin: 50px 80px 50px 80px;
+    /* USED BORDER TO CHECK */
+    border-color: white;
+    border-style: dashed;
+    display: flex;
+}
+
+.footer-1 {
+    flex: 1;
+    color:#A1A2A4;
+    /* USED BORDER TO CHECK */
+    border-color: white;
+    border-style: dashed;
+}
+
+.fICON {
+    display: flex;
+}
+
+.footer-1Icon {
+    margin: 0px 24px 0px 0px;
+}
+
+.footer-name {
+    
+    padding: 0px 10px;
+}
+
+.footer-name h2 {
+    color: #A1A2A4;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    
+}
+
+.footer-name-2 {
+   display: flex;
+}
+
+
+.footer-name-Port {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* MEDIA SCREEN */
+@media  screen and (max-width: 1440px) {
+    /* insert styles here */
+    body {
+
+    }
+} 
