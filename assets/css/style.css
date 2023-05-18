@@ -737,6 +737,15 @@ footer {
     justify-content: flex-end;
 }
 
+.footer-name-Port a {
+    text-decoration: none;
+    color: #A1A2A4;
+}
+
+.footer-1 svg {
+    
+}
+
 /* MEDIA SCREEN */
 @media  screen and (max-width: 1440px) {
     /* insert styles here */
