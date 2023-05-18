@@ -33,7 +33,14 @@ nav li {
     font-size: 16px;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
+    color: #E7E8E8;
 }
+
+nav a {
+    text-decoration: none;
+    color: #E7E8E8;
+}
+
 /* Nav Ul Li  */
 .one {
     color: #FDE68A;
@@ -76,10 +83,10 @@ nav li {
 /* TOP */
 .TOP {
     margin: 50px 80px 50px 80px;
-    /* USED BORDER TO CHECK */
+    /* USED BORDER TO CHECK 
     border-color: white;
     border-style: dashed;
-    
+    */
     
 }
 
@@ -143,16 +150,18 @@ nav li {
 .ABOUT {
     display: flex;
     margin: 50px 80px 70px 80px;
+    /*
     border-color: white;
     border-style: dashed;
+    */
 }
 
 .aboutme {
     flex: 1;
-    /* TESTED THE BOXES */
+    /* TESTED THE BOXES 
     border-color: white;
     border-style: dashed;
-    
+    */
     color: #E7E8E8;
     font-size: 32px;
     font-family: 'Raleway', sans-serif;
@@ -215,8 +224,10 @@ nav li {
 /* WORK */
 .WORK {
     margin: 70px 80px 50px 80px;
+    /*
     border-color: white;
     border-style: dashed;
+    */
 }
 
 .WORK h1 {
@@ -231,9 +242,10 @@ nav li {
 }
 
 aside {
-     /* USED BORDER TO CHECK */
+     /* USED BORDER TO CHECK 
     border-color: white;
     border-style: dashed;
+    */
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px;
@@ -256,9 +268,10 @@ aside li {
 
 .werpDesc {
     color: #E7E8E8;
-     /* USED BORDER TO CHECK */
+     /* USED BORDER TO CHECK 
      border-color: white;
      border-style: dashed;
+     */
     margin-top: 10px;
     font-size: 24px;
     font-family: 'Raleway', sans-serif;
@@ -294,9 +307,10 @@ aside li {
 /* ---------------- */
 /* PROJECTS PART */
 .Projects {
-    /* USED BORDER TO CHECK */
+    /* USED BORDER TO CHECK 
     border-color: white;
     border-style: dashed;
+    */
     margin: 50px 80px 50px 80px;
 }
 
@@ -499,9 +513,10 @@ aside li {
 /* MORE PROJECTS  */
 .Projects-1 {
     margin: 50px 80px 50px 80px;
-    /* USED BORDER TO CHECK */
+    /* USED BORDER TO CHECK 
     border-color: white;
     border-style: dashed;
+    */
 }
 
 .Projects-1 h1 {
@@ -525,8 +540,10 @@ aside li {
     flex: 1;
     background-color: #0B1E59;
     border-radius: 8px;
+    /*
     border-color: white;
     border-style: dashed;
+    */
     font-size: 24px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -589,8 +606,10 @@ aside li {
     flex: 1;
     background-color: #0B1E59;
     border-radius: 8px;
+    /*
     border-color: white;
     border-style: dashed;
+    */
     font-size: 24px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -605,10 +624,10 @@ aside li {
 /* CONTACT AREA */
 .CONTACT {
     margin: 50px 80px 50px 80px;
-    /* USED BORDER TO CHECK */
+    /* USED BORDER TO CHECK 
     border-color: white;
     border-style: dashed;
-    
+    */
 }
 
 .contactTop {
@@ -671,18 +690,20 @@ aside li {
 
 footer {
     margin: 50px 80px 50px 80px;
-    /* USED BORDER TO CHECK */
+    /* USED BORDER TO CHECK 
     border-color: white;
     border-style: dashed;
+    */
     display: flex;
 }
 
 .footer-1 {
     flex: 1;
     color:#A1A2A4;
-    /* USED BORDER TO CHECK */
+    /* USED BORDER TO CHECK 
     border-color: white;
     border-style: dashed;
+    */
 }
 
 .fICON {
