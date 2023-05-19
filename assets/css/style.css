@@ -261,6 +261,19 @@ aside li {
     margin: 0px 80px 24px 0px;
 }
 
+/* BUTONS FOR ASIDE */
+/* uot BTN */
+.uBTN {
+    cursor: pointer;
+}
+
+.werpDesc.changed {
+    background-color: #0B1E59;
+    border-color: white;
+    border-style: dashed;
+    display: none;
+}
+
 /* UOT SPAN CLASS */
 .uotExp {
     color: #e7e7e7;
@@ -277,6 +290,10 @@ aside li {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: #E7E8E8;
+}
+
+.werpDesc.changed {
+    background-color: white;
 }
 
 .werpDesc a {
@@ -727,14 +744,27 @@ footer {
     
 }
 
+.footer-name-1 {
+    margin-left: 40px;
+    /* USED BORDER TO CHECK 
+    border-color: white;
+    border-style: dashed;
+    */
+}
+
 .footer-name-2 {
    display: flex;
+   margin-left: 125px;
 }
 
 
 .footer-name-Port {
     display: flex;
     justify-content: flex-end;
+    margin: 0px 10px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
 }
 
 .footer-name-Port a {
@@ -743,7 +773,7 @@ footer {
 }
 
 .footer-1 svg {
-    
+    margin-left: 300px;
 }
 
 /* MEDIA SCREEN */
