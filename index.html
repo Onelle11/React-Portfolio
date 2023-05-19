@@ -12,7 +12,10 @@
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Raleway:wght@600;700&display=swap');
     </style>
     <script src="https://kit.fontawesome.com/6c320314cb.js" crossorigin="anonymous"></script>
-
+    <!-- react CDN 
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    -->
 </head>
 <body>
     
@@ -106,28 +109,31 @@
             
             <aside>
                 <li class="uBTN" id="uBTN"> <span class="uotExp"> University of Toronto </span></li>
-                <li> Fanshawe College </li>
-                <li> Trudell Medical Ltd </li>
-
+                <li class="fBTN" id="fBTN"> Fanshawe College </li>
+                <li class="tBTN" id="tBTN"> Trudell Medical Ltd </li>
+                <div id="myDiv">
+                    <p>This is the initial content.</p>
+                    <button onclick="changeText()">Change Text</button>
+                  </div>
         
             </aside>
         
 
         <div class="werpDesc" id="werpDesc">
-            <h1> Full Stack Development Bootcamp <a href="https://www.utoronto.ca"><span class="one"> @UofT </span></a></h1>
+            <h1 class="werpDescH1" id="werpDescH1"> Full Stack Development Bootcamp <a href="https://www.utoronto.ca"><span class="one"> @UofT </span></a></h1>
 
-            <p> Dec 2022 - June 2023 </p>
+            <p class="werpDescP" id="werpDescP"> Dec 2022 - June 2023 </p>
 
             <br>
 
-            <h2> This intensive program equipped me with a solid understanding of front-end technologies like HTML, CSS, and JavaScript,
+            <h2 class="werpDescH2" id="werpDescH2"> This intensive program equipped me with a solid understanding of front-end technologies like HTML, CSS, and JavaScript,
                 allowing me to create captivating user interfaces. Additionally, I honed my skills in back-end development using Python
                 and frameworks like Django, empowering me to build robust and scalable server-side applications.
             </h2>
 
             <br>
 
-            <h2> 
+            <h2 class="werpDescH3" id="werpDescH3"> 
                 <li><i class="fa-solid fa-play" style="color: #fde68a;"></i> Mastered front-end technologies (HTML, CSS, JavaScript)
                     to craft captivating user interfaces. </li>
 
@@ -140,7 +146,7 @@
 
             <br> 
 
-            <h2> With my comprehensive skill set and the guidance of experienced instructors and industry professionals, I am ready to
+            <h2 class="werpDescH4" id="werpDescH4"> With my comprehensive skill set and the guidance of experienced instructors and industry professionals, I am ready to
                 embark on my professional journey as a proficient full stack developer. I am excited to adapt to emerging technologies,
                 contribute effectively to web development projects, and create exceptional digital experiences that leave a lasting
                 impact. </h2>

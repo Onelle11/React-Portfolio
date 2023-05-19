@@ -76,7 +76,7 @@ nav a {
     background-color: transparent;
     cursor: pointer;
     border-color: transparent;
-    padding: 0px 0px 0px 35px;
+    padding: 0px 0px 0px 30px;
 }
 
 /* ---------------- */
@@ -261,6 +261,7 @@ aside li {
     margin: 0px 80px 24px 0px;
 }
 
+/* ------------------- */
 /* BUTONS FOR ASIDE */
 /* uot BTN */
 .uBTN {
@@ -269,10 +270,18 @@ aside li {
 
 .werpDesc.changed {
     background-color: #0B1E59;
-    border-color: white;
-    border-style: dashed;
+    
+    /*
     display: none;
+    */
 }
+
+/* fanshawe BTN */
+.fBTN {
+    cursor: pointer;
+}
+
+
 
 /* UOT SPAN CLASS */
 .uotExp {
